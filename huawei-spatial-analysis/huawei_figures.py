@@ -405,73 +405,89 @@ def fig25_closure():
 # ═══════════════════════════════════════════════════════════════════════════════
 def fig26_commute():
     data = load_json('commute_routes.json')
-
-    # Extract route data
     routes = data['routes']
 
-    # Build data for plotting
-    destinations = []
-    modes_list = []
-    times_list = []
-    distances_list = []
+    # Mode definitions
+    mode_defs = [('walk', '步行 (walk)'), ('transit', '公交 (transit)'), ('drive', '驾车 (drive)')]
+    mode_colors = {
+        'walk': COLORS[0],
+        'transit': COLORS[3],
+        'drive': COLORS[1],
+    }
 
-    # All possible modes for consistent grouping
-    all_modes = ['步行 (walk)', '公交 (transit)', '驾车 (drive)']
-    mode_colors = [COLORS[0], COLORS[3], COLORS[1]]
-
+    # Build flat bar list: each bar is one row
+    bar_entries = []  # list of (dest_label, mode_key, mode_label, time, distance)
     for route in routes:
         dest = route['destination']
-        destinations.append(dest)
+        for mode_key, mode_label in mode_defs:
+            if mode_key in route['modes']:
+                t = route['modes'][mode_key]['time_min']
+                d = route['modes'][mode_key]['distance_km']
+                bar_entries.append((dest, mode_key, mode_label, t, d))
 
-    # Create horizontal grouped bar chart
-    n_dest = len(destinations)
-    n_modes = len(all_modes)
-    y = np.arange(n_dest)
-    height = 0.22
+    n_bars = len(bar_entries)
+    height = 0.6
+    gap_within = 0.15   # gap between bars of same destination
+    gap_between = 0.8   # gap between destination groups
+
+    # Compute y-positions with proper grouping
+    y_positions = []
+    y_tick_positions = []
+    y_tick_labels = []
+    current_y = 0
+    prev_dest = None
+
+    for i, (dest, mode_key, mode_label, t, d) in enumerate(bar_entries):
+        if prev_dest is not None and dest != prev_dest:
+            current_y += gap_between
+        elif prev_dest is not None:
+            current_y += height + gap_within
+        y_positions.append(current_y)
+        prev_dest = dest
+
+    # Compute tick positions at center of each destination group
+    dest_groups = {}
+    for i, (dest, _, _, _, _) in enumerate(bar_entries):
+        if dest not in dest_groups:
+            dest_groups[dest] = []
+        dest_groups[dest].append(y_positions[i])
+
+    for dest, positions in dest_groups.items():
+        center = (positions[0] + positions[-1]) / 2
+        y_tick_positions.append(center)
+        y_tick_labels.append(dest)
 
     fig, ax = plt.subplots(figsize=(12, 5))
 
-    # For each mode, create bars across destinations
-    for mode_idx, (mode_key, mode_label) in enumerate(
-            [('walk', '步行 (walk)'), ('transit', '公交 (transit)'), ('drive', '驾车 (drive)')]):
-        times = []
-        distances = []
-        for route in routes:
-            if mode_key in route['modes']:
-                times.append(route['modes'][mode_key]['time_min'])
-                distances.append(route['modes'][mode_key]['distance_km'])
-            else:
-                times.append(0)
-                distances.append(0)
-
-        bars = ax.barh(y + mode_idx * height, times, height,
-                       label=mode_label, color=mode_colors[mode_idx],
-                       edgecolor='white', linewidth=0.5)
-
-        # Add time + distance labels on bars
-        for bar, t, d in zip(bars, times, distances):
-            if t > 0:
-                ax.text(bar.get_width() + 0.5, bar.get_y() + bar.get_height() / 2,
-                        f'{t}min ({d}km)',
-                        ha='left', va='center', fontsize=9, fontweight='bold')
+    # Draw bars
+    legend_handles = {}
+    for i, (dest, mode_key, mode_label, t, d) in enumerate(bar_entries):
+        bar = ax.barh(y_positions[i], t, height,
+                      color=mode_colors[mode_key], edgecolor='white', linewidth=0.5)
+        # Label
+        ax.text(t + 0.5, y_positions[i], f'{t}min ({d}km)',
+                ha='left', va='center', fontsize=10, fontweight='bold')
+        # Collect legend handles
+        if mode_key not in legend_handles:
+            legend_handles[mode_key] = mpatches.Patch(color=mode_colors[mode_key], label=mode_label)
 
     ax.set_xlabel('通勤时间 (分钟)', fontsize=12)
     ax.set_title('图26 秋港花园通勤可达性 / Fig.26 Commute Accessibility from Qiugang Garden',
                  fontsize=13, fontweight='bold', pad=15)
-    ax.set_yticks(y + height)
-    ax.set_yticklabels(destinations, fontsize=11, fontweight='bold')
-    ax.legend(loc='lower right', fontsize=10, framealpha=0.9)
+    ax.set_yticks(y_tick_positions)
+    ax.set_yticklabels(y_tick_labels, fontsize=12, fontweight='bold')
+    ax.legend(handles=[legend_handles[k] for k in ['walk', 'transit', 'drive'] if k in legend_handles],
+              loc='lower right', fontsize=10, framealpha=0.9)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.set_xlim(0, 50)
     ax.invert_yaxis()
 
-    # Add grid on x-axis
     ax.xaxis.grid(True, alpha=0.2)
     ax.set_axisbelow(True)
 
     plt.tight_layout()
-    fig.savefig(os.path.join(FIG_DIR, 'fig26_commute.png'))
+    fig.savefig(os.path.join(FIG_DIR, 'fig26_commute.png'), dpi=300, bbox_inches='tight')
     plt.close(fig)
     print('[OK] fig26_commute.png saved')
 
