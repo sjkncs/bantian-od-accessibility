@@ -1,0 +1,22 @@
+{
+  "origin": "秋港花园",
+  "origin_coords": [114.075434, 22.668739],
+  "routes": [
+    {
+      "destination": "华为坂田基地",
+      "destination_coords": [114.0645, 22.6570],
+      "modes": {
+        "walk": {"time_min": 33.0, "distance_km": 2.4},
+        "transit": {"time_min": 35.6, "distance_km": 3.1},
+        "drive": {"time_min": 9.2, "distance_km": 3.5}
+      }
+    },
+    {
+      "destination": "天安云谷",
+      "destination_coords": [114.066711, 22.661316],
+      "modes": {
+        "walk": {"time_min": 32.9, "distance_km": 2.3}
+      }
+    }
+  ]
+}
