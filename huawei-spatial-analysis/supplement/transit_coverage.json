@@ -1,0 +1,435 @@
+{
+  "search_radius": "500m",
+  "total_communities": 9,
+  "communities": [
+    {
+      "community": "秋港花园",
+      "stops_within_500m": 2,
+      "unique_bus_lines": 0,
+      "bus_lines_list": [],
+      "stops_detail": [
+        {
+          "name": "秋港花园F区(公交站)",
+          "location": "114.077085,22.668230",
+          "distance": "178",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "秋港花园公交首末站(公交站)",
+          "location": "114.074224,22.671361",
+          "distance": "317",
+          "buslines_count": 0,
+          "buslines": []
+        }
+      ]
+    },
+    {
+      "community": "城果公寓",
+      "stops_within_500m": 6,
+      "unique_bus_lines": 0,
+      "bus_lines_list": [],
+      "stops_detail": [
+        {
+          "name": "岗头发展大厦(公交站)",
+          "location": "114.066016,22.658672",
+          "distance": "258",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "冲之社康中心(公交站)",
+          "location": "114.061058,22.657236",
+          "distance": "342",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场(公交站)",
+          "location": "114.063260,22.660221",
+          "distance": "385",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "中心围村(招呼站)(公交站)",
+          "location": "114.063123,22.660353",
+          "distance": "403",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "华为坂田基地(公交站)",
+          "location": "114.061060,22.654797",
+          "distance": "413",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场南(公交站)",
+          "location": "114.061188,22.659904",
+          "distance": "466",
+          "buslines_count": 0,
+          "buslines": []
+        }
+      ]
+    },
+    {
+      "community": "凯金中华",
+      "stops_within_500m": 6,
+      "unique_bus_lines": 0,
+      "bus_lines_list": [],
+      "stops_detail": [
+        {
+          "name": "岗头发展大厦(公交站)",
+          "location": "114.066016,22.658672",
+          "distance": "261",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "冲之社康中心(公交站)",
+          "location": "114.061058,22.657236",
+          "distance": "359",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场(公交站)",
+          "location": "114.063260,22.660221",
+          "distance": "404",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "华为坂田基地(公交站)",
+          "location": "114.061060,22.654797",
+          "distance": "418",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "中心围村(招呼站)(公交站)",
+          "location": "114.063123,22.660353",
+          "distance": "423",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场南(公交站)",
+          "location": "114.061188,22.659904",
+          "distance": "488",
+          "buslines_count": 0,
+          "buslines": []
+        }
+      ]
+    },
+    {
+      "community": "橙子公寓",
+      "stops_within_500m": 6,
+      "unique_bus_lines": 0,
+      "bus_lines_list": [],
+      "stops_detail": [
+        {
+          "name": "岗头发展大厦(公交站)",
+          "location": "114.066016,22.658672",
+          "distance": "273",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "冲之社康中心(公交站)",
+          "location": "114.061058,22.657236",
+          "distance": "322",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场(公交站)",
+          "location": "114.063260,22.660221",
+          "distance": "382",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "华为坂田基地(公交站)",
+          "location": "114.061060,22.654797",
+          "distance": "395",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "中心围村(招呼站)(公交站)",
+          "location": "114.063123,22.660353",
+          "distance": "399",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场南(公交站)",
+          "location": "114.061188,22.659904",
+          "distance": "454",
+          "buslines_count": 0,
+          "buslines": []
+        }
+      ]
+    },
+    {
+      "community": "仁禾公寓",
+      "stops_within_500m": 6,
+      "unique_bus_lines": 0,
+      "bus_lines_list": [],
+      "stops_detail": [
+        {
+          "name": "岗头发展大厦(公交站)",
+          "location": "114.066016,22.658672",
+          "distance": "219",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场(公交站)",
+          "location": "114.063260,22.660221",
+          "distance": "339",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "冲之社康中心(公交站)",
+          "location": "114.061058,22.657236",
+          "distance": "345",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "中心围村(招呼站)(公交站)",
+          "location": "114.063123,22.660353",
+          "distance": "358",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场南(公交站)",
+          "location": "114.061188,22.659904",
+          "distance": "436",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "华为坂田基地(公交站)",
+          "location": "114.061060,22.654797",
+          "distance": "448",
+          "buslines_count": 0,
+          "buslines": []
+        }
+      ]
+    },
+    {
+      "community": "晴满公寓",
+      "stops_within_500m": 6,
+      "unique_bus_lines": 0,
+      "bus_lines_list": [],
+      "stops_detail": [
+        {
+          "name": "岗头发展大厦(公交站)",
+          "location": "114.066016,22.658672",
+          "distance": "234",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "冲之社康中心(公交站)",
+          "location": "114.061058,22.657236",
+          "distance": "403",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场(公交站)",
+          "location": "114.063260,22.660221",
+          "distance": "418",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "中心围村(招呼站)(公交站)",
+          "location": "114.063123,22.660353",
+          "distance": "437",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "华为坂田基地(公交站)",
+          "location": "114.061060,22.654797",
+          "distance": "458",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "天安云谷南广场(招呼站)(公交站)",
+          "location": "114.069165,22.658700",
+          "distance": "481",
+          "buslines_count": 0,
+          "buslines": []
+        }
+      ]
+    },
+    {
+      "community": "芳满公寓",
+      "stops_within_500m": 6,
+      "unique_bus_lines": 0,
+      "bus_lines_list": [],
+      "stops_detail": [
+        {
+          "name": "岗头发展大厦(公交站)",
+          "location": "114.066016,22.658672",
+          "distance": "236",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "冲之社康中心(公交站)",
+          "location": "114.061058,22.657236",
+          "distance": "412",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场(公交站)",
+          "location": "114.063260,22.660221",
+          "distance": "427",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "中心围村(招呼站)(公交站)",
+          "location": "114.063123,22.660353",
+          "distance": "446",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "华为坂田基地(公交站)",
+          "location": "114.061060,22.654797",
+          "distance": "462",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "天安云谷南广场(招呼站)(公交站)",
+          "location": "114.069165,22.658700",
+          "distance": "476",
+          "buslines_count": 0,
+          "buslines": []
+        }
+      ]
+    },
+    {
+      "community": "中心围南六巷1号",
+      "stops_within_500m": 6,
+      "unique_bus_lines": 0,
+      "bus_lines_list": [],
+      "stops_detail": [
+        {
+          "name": "岗头发展大厦(公交站)",
+          "location": "114.066016,22.658672",
+          "distance": "254",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "冲之社康中心(公交站)",
+          "location": "114.061058,22.657236",
+          "distance": "303",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场(公交站)",
+          "location": "114.063260,22.660221",
+          "distance": "329",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "中心围村(招呼站)(公交站)",
+          "location": "114.063123,22.660353",
+          "distance": "347",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场南(公交站)",
+          "location": "114.061188,22.659904",
+          "distance": "406",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "华为坂田基地(公交站)",
+          "location": "114.061060,22.654797",
+          "distance": "414",
+          "buslines_count": 0,
+          "buslines": []
+        }
+      ]
+    },
+    {
+      "community": "凯金公寓",
+      "stops_within_500m": 7,
+      "unique_bus_lines": 0,
+      "bus_lines_list": [],
+      "stops_detail": [
+        {
+          "name": "冲之社康中心(公交站)",
+          "location": "114.061058,22.657236",
+          "distance": "306",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头发展大厦(公交站)",
+          "location": "114.066016,22.658672",
+          "distance": "310",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "华为坂田基地(公交站)",
+          "location": "114.061060,22.654797",
+          "distance": "360",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场(公交站)",
+          "location": "114.063260,22.660221",
+          "distance": "407",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "中心围村(招呼站)(公交站)",
+          "location": "114.063123,22.660353",
+          "distance": "424",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "岗头市场南(公交站)",
+          "location": "114.061188,22.659904",
+          "distance": "463",
+          "buslines_count": 0,
+          "buslines": []
+        },
+        {
+          "name": "华为基地(公交站)",
+          "location": "114.061290,22.653006",
+          "distance": "487",
+          "buslines_count": 0,
+          "buslines": []
+        }
+      ]
+    }
+  ]
+}

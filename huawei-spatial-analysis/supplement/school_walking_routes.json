@@ -1,0 +1,77 @@
+{
+  "total_routes": 9,
+  "routes": [
+    {
+      "community": "秋港花园",
+      "school": "深圳市龙华区观湖实验学校",
+      "school_type": "小学",
+      "distance_m": 2752,
+      "duration_min": 36.7,
+      "steps_count": 16
+    },
+    {
+      "community": "城果公寓",
+      "school": "宝岗小学",
+      "school_type": "小学",
+      "distance_m": 397,
+      "duration_min": 5.3,
+      "steps_count": 4
+    },
+    {
+      "community": "凯金中华",
+      "school": "宝岗小学",
+      "school_type": "小学",
+      "distance_m": 356,
+      "duration_min": 4.8,
+      "steps_count": 4
+    },
+    {
+      "community": "橙子公寓",
+      "school": "宝岗小学",
+      "school_type": "小学",
+      "distance_m": 397,
+      "duration_min": 5.3,
+      "steps_count": 4
+    },
+    {
+      "community": "仁禾公寓",
+      "school": "宝岗小学",
+      "school_type": "小学",
+      "distance_m": 459,
+      "duration_min": 6.1,
+      "steps_count": 6
+    },
+    {
+      "community": "晴满公寓",
+      "school": "宝岗小学",
+      "school_type": "小学",
+      "distance_m": 395,
+      "duration_min": 5.3,
+      "steps_count": 5
+    },
+    {
+      "community": "芳满公寓",
+      "school": "宝岗小学",
+      "school_type": "小学",
+      "distance_m": 398,
+      "duration_min": 5.3,
+      "steps_count": 5
+    },
+    {
+      "community": "中心围南六巷1号",
+      "school": "宝岗小学",
+      "school_type": "小学",
+      "distance_m": 500,
+      "duration_min": 6.7,
+      "steps_count": 6
+    },
+    {
+      "community": "凯金公寓",
+      "school": "宝岗小学",
+      "school_type": "小学",
+      "distance_m": 397,
+      "duration_min": 5.3,
+      "steps_count": 3
+    }
+  ]
+}

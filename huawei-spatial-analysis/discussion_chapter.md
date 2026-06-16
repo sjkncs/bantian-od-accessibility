@@ -195,7 +195,49 @@ This finding elevates the education provision rate issue from "planning technica
 
 ---
 
-## 4.7 数据质量与方法论反思
+## 4.7 比较验证：秋港花园是否为孤例？
+
+### Comparative Validation: Is Qiugang Garden an Isolated Case?
+
+前文提出的"宿舍型大院"模型基于秋港花园的单一案例分析，但一个关键的理论问题是：这一空间治理模式是否为华为独有，还是坂田片区高科技制造业企业的普遍现象？本节通过对坂田片区多家企业的比较数据采集，回答这一问题。
+
+The "dormitory-type compound" model proposed above is based on a single case study of Qiugang Garden, but a critical theoretical question remains: is this spatial governance model unique to Huawei, or is it a general phenomenon among high-tech manufacturing enterprises in the Bantian area? This section addresses this question through comparative data collection across multiple enterprises in Bantian.
+
+**（1）教育可达性的社区级差异**。本研究对秋港花园及周边8个住宅社区分别计算了至最近学校的步行路径距离（见图27）。结果显示，秋港花园至最近学校（观湖实验学校）的步行距离为**2,752米/36.7分钟**，而其他社区至最近学校（宝岗小学）的步行距离仅为**356-500米/4.8-6.7分钟**。秋港花园的教育可达性仅为其他社区的**13%-15%**（以距离倒数衡量）。这一发现将4.6节的全区统计精度细化到了社区级别，证明教育缺口不是坂田片区的整体规划问题，而是秋港花园的**局部性结构缺陷**。
+
+**(1) Community-level variation in educational accessibility.** This study calculated walking route distances to the nearest school for Qiugang Garden and 8 surrounding residential communities (see Fig. 27). Results show that Qiugang Garden's walking distance to the nearest school (Guanhu Experimental School) is **2,752m/36.7min**, while other communities' distances to the nearest school (Baogang Primary School) are only **356–500m/4.8–6.7min**. Qiugang Garden's educational accessibility is only **13–15%** of other communities (measured by inverse distance). This finding refines the district-level statistics from Section 4.6 to community-level precision, demonstrating that the education deficit is not a general planning issue in Bantian but a **localized structural deficiency** specific to Qiugang Garden.
+
+**（2）公共交通与商业覆盖的双重缺失**。对9个社区的500米范围内公交站点和200米范围内商业设施的检索结果（见图28）显示：秋港花园500米内仅有**2个公交站点**（秋港花园F区站和秋港花园公交首末站），而其他社区平均拥有**6.3个公交站点**——秋港花园的公交覆盖仅为其他社区的**1/3**。更极端的是，秋港花园200米内的商业设施数量为**零**，而其他社区平均拥有**12.4个商业设施**（便利店、超市、餐饮等）。这一发现从侧面印证了"宿舍型大院"的核心特征：居民的日常出行需求被企业班车替代（因此无需公共交通覆盖），日常消费需求被压缩至最低（因此周边商业无法存活）。
+
+**(2) Dual absence of public transit and commercial coverage.** Searches of bus stops within 500m and commercial facilities within 200m for 9 communities (see Fig. 28) reveal: Qiugang Garden has only **2 bus stops** within 500m (Qiugang Garden Zone F stop and Qiugang Garden bus terminal), while other communities average **6.3 bus stops** — Qiugang Garden's transit coverage is only **1/3** of others. More extremely, Qiugang Garden has **zero** commercial facilities within 200m, while others average **12.4** (convenience stores, supermarkets, restaurants). This finding corroborates the core feature of the "dormitory-type compound" from a different angle: residents' daily mobility needs are replaced by enterprise shuttle buses (hence no need for public transit coverage), and daily consumption needs are compressed to the minimum (hence surrounding commerce cannot survive).
+
+**（3）企业配套住宅模式的类型学比较**。本研究对坂田片区4家代表性企业的配套住宅模式进行了比较分析（见图29），识别出三种空间治理类型：
+
+**(3) Typological comparison of enterprise housing models.** This study conducted a comparative analysis of housing support models for 4 representative enterprises in the Bantian area (see Fig. 29), identifying three spatial governance types:
+
+**"全包围型"（富士康龙华园区）**：富士康的厂区内部200米范围内拥有**23个设施点**（包括食堂、宿舍、快递站、彩票站、餐饮等），1公里范围内有**25个住宅相关POI**（鸿鹄居、天库宿舍、L区宿舍等富士康自有宿舍）。富士康的空间治理模式最接近传统单位大院：工作、住宿、餐饮、消费高度整合在同一厂区围墙之内。
+
+**"Full-enclosure type" (Foxconn Longhua Campus):** Foxconn's factory area contains **23 facilities** within 200m (including canteens, dormitories, courier stations, lottery outlets, restaurants), and **25 residential POIs** within 1km (Honghu Residence, Tianku Dormitory, L-Zone Dormitory, all Foxconn-owned). Foxconn's spatial governance model most closely resembles the traditional danwei compound: work, accommodation, dining, and consumption are highly integrated within the same factory walls.
+
+**"传统大院型"（康冠科技）**：康冠科技在200米内拥有**11个设施**（包括康冠科技集团生活区、家属院、新建公寓楼、3A栋宿舍等），1公里内有**25个住宅POI**。康冠保留了较为传统的"厂区+生活区"模式，企业承担了部分"再生产"职能（家属院的存在暗示了对员工家庭的接纳）。
+
+**"Traditional compound type" (KTC/Kangguan Technology):** KTC has **11 facilities** within 200m (including KTC Group Living Area, Family Quarters, New Apartment Building, 3A Dormitory), and **25 residential POIs** within 1km. KTC retains a relatively traditional "factory + living area" model, with the enterprise assuming partial "reproduction" functions (the existence of family quarters suggests acceptance of employees' families).
+
+**"市场化型"（神舟电脑）**：神舟电脑周边200米内拥有**25个设施**（包括瑞幸咖啡、多家餐厅、律师事务所等），1公里内有**25个住宅POI**（新天下公寓、百瑞达公寓、万科城等）。神舟员工的住宅高度市场化——公寓名称（"愿景公寓""宅幸福公寓"）暗示这些是面向市场的租赁物业，而非企业专属宿舍。
+
+**"Market-oriented type" (Hasee/Shenzhou Computer):** Hasee has **25 facilities** within 200m (including Luckin Coffee, multiple restaurants, law firms), and **25 residential POIs** within 1km (Xintianxia Apartments, Bairuida Apartments, Vanke City). Hasee employees' housing is highly marketized — apartment names ("Vision Apartment," "Zhaihappiness Apartment") suggest these are market-oriented rental properties rather than enterprise-exclusive dormitories.
+
+**"宿舍型"（华为·秋港花园）**：秋港花园200米内仅有**3个设施**（2家药店、1家便利店），且这3个设施均不属于企业配套——它们是市场自发进入的商业行为。1公里范围内的住宅POI数量为零（秋港花园周边1公里内没有其他以"华为"命名的住宅区）。华为的空间治理模式在四家企业中最为极端：企业不提供任何居住配套服务，员工的居住空间被彻底"空壳化"。
+
+**"Dormitory type" (Huawei · Qiugang Garden):** Qiugang Garden has only **3 facilities** within 200m (2 pharmacies, 1 convenience store), none of which are enterprise-provided — they are market-driven commercial entries. The number of residential POIs within 1km is zero (no other "Huawei"-named residential areas exist within 1km of Qiugang Garden). Huawei's spatial governance model is the most extreme among the four enterprises: the enterprise provides zero residential service amenities, and employees' living space is thoroughly "hollowed out."
+
+**（4）"宿舍化指数"的综合量化**。为了将上述多维比较综合为单一指标，本研究构建了"宿舍化指数"（Dormitory Index），以其他社区的平均值为基准（=1.0），计算秋港花园在四个维度上的相对得分（见图30）：学校可达性**0.15**、公交覆盖**0.33**、商业活力**0.00**、内部设施**0.12**。四个维度的综合均值仅为**0.15**，意味着秋港花园的社区综合服务水平仅为坂田片区普通社区的15%。这一量化指标直观地呈现了"宿舍型大院"的空间治理效果：通过系统性地剥离生活服务功能，秋港花园被塑造为一个几乎纯粹的"睡眠容器"。
+
+**(4) Composite quantification via the "Dormitory Index."** To integrate the above multi-dimensional comparisons into a single metric, this study constructs a "Dormitory Index," using the average of other communities as the baseline (=1.0), and calculating Qiugang Garden's relative scores across four dimensions (see Fig. 30): school accessibility **0.15**, transit coverage **0.33**, commercial vitality **0.00**, internal facilities **0.12**. The composite average across all four dimensions is only **0.15**, meaning Qiugang Garden's comprehensive community service level is only 15% of that in ordinary Bantian communities. This quantified metric vividly demonstrates the spatial governance effect of the "dormitory-type compound": through systematic stripping of life-service functions, Qiugang Garden has been shaped into an almost pure "sleeping container."
+
+---
+
+## 4.8 数据质量与方法论反思
 
 ### Data Quality and Methodological Reflections
 
@@ -221,7 +263,7 @@ This study employed multi-source data cross-validation during data collection, y
 
 ---
 
-## 4.8 局限与展望
+## 4.9 局限与展望
 
 ### Limitations and Future Directions
 
@@ -275,6 +317,10 @@ This study has the following primary limitations:
 | Fig. 24 | **华为-秋港花园空间关系图（园区/食堂/通勤路径）/ Huawei–Qiugang Spatial Relationship Map** |
 | Fig. 25 | **社区闭合度指数雷达图（12类设施）/ Community Closure Index Radar Chart (12 facility categories)** |
 | Fig. 26 | **秋港花园通勤可达性对比图（步行/公交/驾车）/ Commute Accessibility Comparison from Qiugang Garden** |
+| Fig. 27 | **各社区至最近学校步行距离对比 / Walking Distance to Nearest School by Community** |
+| Fig. 28 | **社区公共服务覆盖对比（公交站点+商业设施）/ Public Service Coverage Comparison (Transit + Commercial)** |
+| Fig. 29 | **坂田企业配套住宅模式对比（华为/富士康/康冠/神舟）/ Enterprise Housing Model Comparison in Bantian** |
+| Fig. 30 | **秋港花园宿舍化指数雷达图（4维度综合）/ Qiugang Garden Dormitory Index Radar (4 Dimensions)** |
 
 ---
 
